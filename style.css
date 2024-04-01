@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Spinnaker&family=Ysabeau+SC:wght@500&display=swap')
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Spinnaker, sans-serif;
+    font-weight: 300;
+    color: black;
+    background-color: #FFD9DA;
+}
+header{
+  background-color: #474056;
+}
+
+/* create a style for headings and logo*/
+h1 {
+  font-family: Satisfy;
+  color: black;
+}
+h2 {
+  font-family: Areal,sans-serif;
+  font-style: bold;
+  text-transform: capitalize;
+  color: black;
+}
+#logo {
+  float: left;
+  font-size: 250%;
+}
+/* create a style for navigation menu*/
+#menu {
+    font-size: 115%;
+    letter-spacing: 3px;
+}
+/* put in the same line logo and menu*/
+#menu, #logo {
+    line-height: 80px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: grey;
+}
+
+#menu a:hover {
+    border-bottom: 3px solid #202241;
+    font-size: 125%;
+}
+
+.active {
+    border-bottom: 1px solid #202241;
+}
+/* create a style for top image and cover text */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#top-text, #cover-text h2 {
+    color: #fff;
+}
+
+#top-img {
+    height: 400px;
+    width: 99%;
+    background: url('top1a.jpg') no-repeat center center;
+
+    /* animates zoom effect on loading page
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+*/
+/* creates the level of zoom for hero image
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}*/
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
