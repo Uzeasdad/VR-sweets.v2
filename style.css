@@ -8,44 +8,54 @@
 }
 
 body {
-    font-family: Spinnaker, sans-serif;
     font-weight: 300;
     color: black;
-    background-color: #FFD9DA;
-}
-header{
-  background-color: #474056;
+  /*  background-color: #FFD9DA;*/
 }
 
 /* create a style for headings and logo*/
-h1 {
-  font-family: Satisfy;
-  color: black;
+
+h1,h2 {
+  font-family: Spinnaker, sans-serif;
+  font-style: bold;
+  letter-spacing: 4px;
+  color: #100F1A;
 }
 h2 {
-  font-family: Areal,sans-serif;
-  font-style: bold;
-  text-transform: capitalize;
-  color: black;
+  text-transform: uppercase;
+}
+h3{
+  color: #202241;
+  font-family: Ysabeau;
+  font-style: italic;
+  font-size: 96%;
 }
 #logo {
+  margin-left: 50px;
+  font-family: Pristina;
+  color: #6B4E71;
+  font-style: italic;
+  letter-spacing: 4px;
   float: left;
-  font-size: 250%;
+  font-size: 500%;
+  letter-spacing: 7px;
 }
 /* create a style for navigation menu*/
 #menu {
-    font-size: 115%;
+    font-size: 120%;
     letter-spacing: 3px;
+    padding-top: 20px;
 }
 /* put in the same line logo and menu*/
 #menu, #logo {
-    line-height: 80px;
+    line-height: 40px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 25px;
+
 }
 
 #menu a {
@@ -55,7 +65,7 @@ h2 {
 
 #menu a:hover {
     border-bottom: 3px solid #202241;
-    font-size: 125%;
+    font-size: 130%;
 }
 
 .active {
@@ -63,55 +73,60 @@ h2 {
 }
 /* create a style for top image and cover text */
 
-#hero-outer {
-    height: 600px;
+#img-outer {
+    height: 450px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
-#top-text, #cover-text h2 {
-    color: #fff;
-}
-
 #top-img {
-    height: 400px;
-    width: 99%;
-    background: url('top1a.jpg') no-repeat center center;
+    height: 450px;
+    width: 100%;
+    background: url('top.png') no-repeat center center;
 
-    /* animates zoom effect on loading page
-    animation-name: hero-zoom;
+/* animates zoom effect on loading page   zooming the top_img*/
+    animation-name: zoom_images;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
-*/
-/* creates the level of zoom for hero image
-@keyframes hero-zoom {
+
+/* creates the level of zoom for zoom_images*/
+@keyframes zoom_images {
     from{
         transform: scale(1);
     }
     to{
-        transform: scale(1.1);
+        transform: scale(1.15);
     }
-}*/
+}
+/* create style for second section */
+#welcome{
+  text-align: center;
+  padding-top: 20px;
+  margin: 20px 0;
+  font-size: 220%;
 
-#cover-text {
-    font-size: 130%;
-    font-family: Oswald, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+}
+#second{
+  height: 520px;
+  background-color: #F1E3F3;
+  }
+.blocs{
+  padding-top: 30px;
+  width: 25%;
+  float: left;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 120%;
+  }
 
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(241, 109, 107, .7);
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
+.pict{
+  width: 180px;
+  height: 180px;
+  padding: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0 auto;
 }
