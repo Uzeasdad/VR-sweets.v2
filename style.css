@@ -30,6 +30,12 @@ h3{
   font-style: italic;
   font-size: 96%;
 }
+p{
+  color: #202241;
+  font-family: Ysabeau;
+  font-size: 125%;
+
+}
 #logo {
   margin-left: 50px;
   font-family: Pristina;
@@ -101,7 +107,7 @@ h3{
     }
 }
 /* create style for second section */
-#welcome{
+.welcome{
   text-align: center;
   padding-top: 20px;
   margin: 20px 0;
@@ -129,4 +135,9 @@ h3{
   border-width: 1px;
   border-radius: 50%;
   margin: 0 auto;
+}
+#third{
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
 }
