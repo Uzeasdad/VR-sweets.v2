@@ -16,28 +16,22 @@ In this section, you should go over the different parts of your project, and des
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](images/val4.png)
 
 - __The landing page image__
 
   - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+- __Section2__
 
-- __Club Ethos Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
+![section 2](images/val5.png)
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+- __info section__
 
-- __Meetup Times section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Meetup Times](images/val6.png)
+![Meetup Times](images/val7.png)
 
 - __The Footer__
 
@@ -51,13 +45,13 @@ In this section, you should go over the different parts of your project, and des
   - The gallery will provide the user with supporting images to see what the meet ups look like.
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Gallery](images/val8.png)
 
 - __The Sign Up Page__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Sign Up](images/val9.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -86,7 +80,7 @@ If this section grows too long, you may want to split it off into a separate fil
 - No errors were returned when passing through the official contact-us.html [W3C validator](images/val3.png)
 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](images/val4.png)
+  - 3 errors were found when passing through the official [(Jigsaw) validator](images/val4.png)
 
 ### Unfixed Bugs
 
